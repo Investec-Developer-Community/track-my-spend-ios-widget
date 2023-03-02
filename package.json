@@ -1,0 +1,19 @@
+{
+  "name": "track-my-spend-ios-widget",
+  "version": "1.0.0",
+  "description": "Track your daily spend",
+  "main": "index.js",
+  "repository": "https://github.com/programmable-banking-community/track-my-spend-ios-widget.git",
+  "author": "Make (Pty) Ltd",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "pinst": "^3.0.0"
+  }
+}
