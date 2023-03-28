@@ -1,5 +1,9 @@
 # Track My Spend
-An IOS widget to help track your spend with Programmable Banking.
+An iOS widget that helps you track your spend with Programmable Banking. 
+
+- TrackMySpend shows you how much money you have spent each day and provide a view of your last 5 transactions on your account.
+- The widget can be installed on an iOS mobile device in a few simple steps.
+- TrackMySpend uses the **Programmable Banking Transaction History API**.
 
 ![Widget Preview](./img/device-preview.png)
 
@@ -7,12 +11,16 @@ An IOS widget to help track your spend with Programmable Banking.
 - The [Scriptable](https://scriptable.app/) mobile app
 - iPhone/iPad/Mac
 - iOS 14.0 or later / macOS Big Sur or later
+- Access to the [Investec Programmable Banking API](https://developer.investec.com/za/api-products)
 
 ## Preparation
 You will need to have your Investec API keys at hand.
-Specifically, your client ID, client secret and API key. You can learn more about Investec API keys in the [quick start guide](https://offerzen.gitbook.io/programmable-banking-community-wiki/developer-tools/quick-start-guide#how-to-get-your-api-keys).
+Specifically, your client ID, client secret and API key. You can learn more about getting your Investec API keys in the [API Quick Start Guide](https://offerzen.gitbook.io/programmable-banking-community-wiki/developer-tools/quick-start-guide#how-to-get-your-api-keys).
 
-Finally, you must fork this repository to your Github account. This allows you to easily stay up to date with new changes to the widget without losing your local customizations to it.
+## Getting Started
+We encourage you to fork this repository to your GitHub account. This allows you to easily stay up to date with new changes to the widget without losing any local customizations you may make to it. To fork this app, please see the [following guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+
+Once you have forked the repo, please clone it.
 After you have cloned the repository, clone the repository to your local environment.
 
 ## Configuration
